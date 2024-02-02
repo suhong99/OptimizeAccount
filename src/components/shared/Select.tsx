@@ -9,10 +9,10 @@ export interface Option {
   label: string
   value: string | number | undefined
 }
+
 interface SelectProps extends SelectHTMLAttributes<HTMLSelectElement> {
   label?: string
   options: Option[]
-  placeholder: string | undefined
 }
 
 const BaseSelect = styled.select`
