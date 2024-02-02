@@ -1,5 +1,7 @@
-import { BannerSkeleton } from '@components/home/EventBanners'
 import dynamic from 'next/dynamic'
+import { useSession } from 'next-auth/react'
+
+import { BannerSkeleton } from '@components/home/EventBanners'
 import Account from '@components/home/Account'
 import { CreditScoreSkeleton } from '@components/home/CreditScore'
 import { CardListSkeleton } from '@components/home/CardList'
@@ -21,6 +23,8 @@ const CardList = dynamic(() => import('@components/home/CardList'), {
 })
 
 export default function Home() {
+  const { data } = useSession()
+
   return (
     <>
       <EventBanners />
