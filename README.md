@@ -3,10 +3,11 @@
 ## 고석진 강사님의 계좌 최적화 강의   
 
 ## 학습목표   
-Next.js를 활용한 SSR 및 SSG 이해
+
+[Next.js를 활용한 SSR 및 SSG 이해](https://github.com/suhong99/OptimizeAccount/issues/1).
 --> SSR에서 Next.js의 링크의 prefatch로 인한 효율적인 랜더링   
-Next.js에서의 SEO 최적화   
-Next.js에서 공통 에러 관리   
+[Next.js에서의 SEO 최적화](https://github.com/suhong99/OptimizeAccount/issues/3).   
+[Next.js에서 공통 에러 관리](https://github.com/suhong99/OptimizeAccount/issues/5).   
 
 ## 페이지 소개   
 본인의 신용점수를 확인하고 카드 추천 및 입출금을 하는 프로젝트   
